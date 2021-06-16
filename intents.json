@@ -1,0 +1,113 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [ "Hi", "Hey", "Is anyone there?", "Hello", "Hai","Hii","Hey ya","haii","whatsup","Good day","Hya","Hya there"],
+      "responses": [ "Hello,how can I help you?\n With your complaints or feedbacks", "Hi,how can I help you?\n With your complaints or feedbacks", "Hi there,how can I help you?\n With your complaints or feedbacks", "Welcome,how can I help you?\n With your complaints or feedbacks", "Glad to have you here,how can I help you?\n With your complaints or feedbacks","Greetings from Foodie bot,how can I help you?\n With your complaints or feedbacks" ],
+      "context":[""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [ "Bye", "See you later", "Goodbye", "Cya", "Talk to you later", "See you", "Gotto go","Thanks for helping me" ],
+      "responses": [ "Thanks for your stay with us and for sharing your experience","See you later and please do recommend us!", "Have a nice day and please do recommend us", "Bye! Come back again and please do recommend us!", "It was nice conversing with you do come back again","Hope to converse soon with you again","See you later please to recommend us","Anytime at your service","My pleasure"," Please do recommend us to our fellow mates","Bye! Come back again soon and do recommend us."],
+      "context":[""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [ "Thanks", "Thank you", "That's helpful","Thanks a lot", "Thanks for the help","That's nice","Its great","Great,thank you","thank yo so much","Awesome,thanks","OK thank you","OK thanks"],
+      "responses": [ "Happy to help!", "Any time!", "My pleasure", "You're most welcome!", "Always here to help you", "Would be there at your service anytime", "Would be there at your service all time", "Would be there to help you at anytime","Glad we could help","We are happy to help you"],
+      "context":[""]
+    },
+    {
+      "tag": "about",
+      "patterns": [ "Who are you?", "What are you?", "Who you are?", "Who's this?", "Whom am i talking to?", "Introduce yourself?", "Who is this?", "about", "tell me something about yourself?","Yourself?", ],
+      "responses": [ "I am Foodie Bot, your bot assistant to help with complaints and feedbacks ", "I'm Foodie bot,a chatbot to deal with your feedbacks and complaints" ],
+      "context":[""]
+    },
+    {
+      "tag": "name",
+      "patterns": [ "what is your name", "what should I call you", "whats your name?", "name", "What do I call you", "Your name please", "What can I call you", "Your name","Yourself" ],
+      "responses": [ "You can call me Foodie.", "I'm Foodie!", "Just call me as Foodie" ],
+      "context":[""]
+    },
+     {
+      "tag": "noanswer",
+      "patterns": [""],
+      "responses": [ "Sorry,cant understand you","Please give me more information","Not sure I understand what you are conveying!!" ],
+      "context":[""]
+    },
+      {
+      "tag": "options",
+      "patterns": ["how could you help me","What can you do","What help can you provide","How are you helpful"],
+      "responses": [ "I can guide through your through your complaints","I can help you based on your query","I can take your complaints, feedbacks and answers you as much as possible" ],
+      "context":[""]
+    },
+    {
+      "tag": "help",
+      "patterns": [ "help", "Could you assist me", "Could you assist me please", "I have a problem", "assist me please", "assist me", "help me", "guide me", "help me please", "guide me please", "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need support", "support", "I need help", "Could you guide me", "will you help me", "support me", "I need a support", "I need a help", "support me please"],
+      "responses": [ "Tell me how can assist you", "How can I help you", "How may I  help you", "How may I guide you", "Sure, I would be glad to help you", "I am here to help you", "Yes, I am here to help you out", "Tell me your problem to assist you", "Yes Sure, How can I support you" ],
+      "context":[""]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [ "I would like to give a feedback", "I want to talk about your service", "Feedback" ],
+      "responses": [ "Sure,please provide us with your valuable feedback", "Sure,Would like to talk on your food delivered?","Thank you for opting to give us your valuable feedback","Please share with us your experince to improve our services","Your feedback is always valuable for us!" ],
+      "context":[""]
+    },
+      {
+      "tag": "fanswer1",
+      "patterns": [ "A warm and friendly welcome with fantastic customer service."," Always great, tasty food served piping hot- just the way we like it. Would definitely recommend. We have been many times and it has consistently exceeded our expectations.","I liked the way food was delivered", "I was impressed by the food was delivered"," We were pleased with service, It was beyond our expectations", "The delivery was faster then expected, Good","Your food service was amazing"," Great service, great food and great value for money.","friendly service"," great menu choices and really decent food and at affordable prices","Had a wonderful meal","Extremely high standard of cuisine", "great restaurant atmosphere."," Very courteous/happy staff.","The food was excellent","It was way beyond the call of duty and excellent customer service.","very impressed","Delicous food recieved"," The most sublime food" ],
+      "responses": ["We are glad you liked our service","Happy to serve you","Thank You customer","We are happy to serve you!!!","We are happy to deliver/serve you hot and fresh food","Happy to live upto your expectations customer" ],
+      "context":[""]
+    },
+      {
+      "tag": "fanswer2",
+      "patterns": [ "I didnt liked the way food was delivered", "I wasn't impressed by the food was delivered", "The delivery was very slow then expected time","My food got cold by the time it reached me","It was a pathetic service","Food wasnt cooked properly","Food was extremely salty","Food was way to spicy","Food didnt meet my experctations","Food wasnt fresh","It looked like expired food","Prices tooo high","Prices not wrothy of the food recived","Food was frozen from jewel","The food is mediocre for the price and to make it even worse it is not even close to authentic","Food was very hard"],
+      "responses": ["We are extremly sorry you had faced this issue","Apologies customer ","Sorry we didnt live upto your expectation :(" ],
+      "context":[""]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [ "have a complaint", "I want to raise a complaint", "there is a complaint about a service", "I have a complaint", "complaint", "complain", "have a complain", "I have an issue", "I'm having a trouble", "issue", "trouble", "Facing a problem", "I am facing an issue", "I want to file a complaint", "Angry with your service", "I'm annoyed with your service", "I'm annoyed" ],
+      "responses": [ "Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused", "Please provide us with your complaint", "Sorry for the incovience , please tell us your problem to help you out" ],
+      "context":[""]
+    },
+    {
+      "tag": "canswer1",
+      "patterns": [ "I have problem with the service provided", "I was dissatisfied with the service provided", "I didnt like your service", "I was unhappy with the service", "I service wasn't upto mark", "service was bad", "I didnt like your service", "It was an uninstrested service", "The service didnt reach my expectations", "I was a poor service","The delivery guy was very rude","Extra cash was demanded for delivery"," Not an attentive service"],
+      "responses": [ "We are sorry you had problem with the service provided","We would call you shortly to learn about it in detail, Sorry for the inconvience","Sorry for inconvinence, could you elaborate the details" ],
+      "context":[""]
+    },
+    {
+      "tag": "canswer2",
+      "patterns": [ "I had a long wait", "Lack of follow up", "Im tired of calling the customer care again and again", "No First Call Resolution " ],
+      "responses": [ "We are really sorry you had to wait long","Sorry that you had to wait","Apologies to make you wait","We apologize for the inconvience caused","Sorry customer, we have some unresolved issue on the calling service, provide us with your complaint here","Our consultant will reach you shortly" ],
+      "context":[""]
+    },
+      {
+      "tag": "canswer3",
+      "patterns": [ "Food was dry and not cooked well","Food was uncooked","Not seasoned properly","Ingredients weren't fresh","odour was bad","Stale food"],
+      "responses": [ "Apologies, but we always check our ingredients before cooking we would check and revert to you" ],
+      "context":[""]
+    },
+    {
+      "tag": "postive",
+      "patterns": [ "I'm happy with service", "Good service", "Good work", "thumbs up", "I had a joyful experience", "enjoyed your service", "Great experience", "Best service ever ", "I had a good experience", "Happy with the service provivded", "I'm happy", "I'm satisfied with the work", "Flawless", "Too good", "Mind blowing work", "Satisfied", "Sepctacular", "Simply amazing", "Happy", "Good", "Great", "Joyful", "Amazing", "Marvelous", "Wholesome", "Awesome", "Keep it up", "Super", "Superb","Pleased","It was a peaceful service","It was a peaceful work presented","Im delighted by the work","Very professional","Good food"],
+      "responses": [ "We are glad we stood up to your excpectations", "We are happy to help","We had a great experience helping you","Thank you","We are glad to help" ],
+      "context":[""]
+    },
+    {
+      "tag": "negative",
+      "patterns": [ "I'm annoyed with your service", "Bad service", "Horrible service", "Horrible experience", "Worst experience ever", "Bad work", "I'm not content", "I had a bad experience", "Angry with service provivded", "I'm dissatisfied with the work", "Worst ", "Had a bitterful experince", "Too bad", "Annoyed", "Awful", "horrible", "Bad", "Rude","Messy", "Messed up", "Dissatified", "Utterly horrible", "Never seen such a mess", "I'm annoyed", "Angry","I'm mad at your service","Im irritated by your service","Mad","Irritated","Displeased","Im displeaded by the work done","Wrothless","filthy","It was a filthy experience ever","Would never want to order again","Frozen food"," poor food quality","Sleepy service","rotten food","Wish I could give a zero star","Would never recommend your service to anyone","very unprofessional service"],
+      "responses": [ "Sorry we couldn't stand up to your expectations", "Please mention your complaint details, we will reach you and sorry for any inconvenience caused"],
+      "context":[""]
+    },
+    {
+      "tag": "neutral",
+      "patterns": [ "Fine service", "ok service", " Fine work", "I'm content", "I had a normal experience", "It was alright", "Alright", "It was fine", "It was ok", "ok", "Could have been better", "Fine", "Not bad", "Somewhat fine", "Somehow ok", "Neither good nor bad", "Better", "It was alright", "It seemed alright" ],
+      "responses": [ "We are happy to be approached", "Thank you for approaching us","Thank you for reaching us","Happy to help!","We will reach you soon with better solutions" ],
+      "context":[""]
+    }
+
+  ]
+}
